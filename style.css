@@ -1,0 +1,298 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner Section Start */
+.banner{
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    height: 500px;
+    position: relative;
+}
+.overlay{
+    border-radius: 12px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.overlay h4{
+    margin-bottom: 0;
+    margin-top: 135px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+.overlay h1{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 65px;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    text-align: center;
+    line-height: 75px;
+}
+
+.banner img{
+    width: 100%;
+}
+/* Banner Section End */
+
+/* Categories Section start */
+#categories{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    /* margin-bottom: 100px; */
+}
+.ca_text{
+    text-align: center;
+}
+.ca_text h1, h5, h4{
+    font-family: Inter, serif;
+    text-transform: uppercase;
+}
+.ca_text h1{
+    font-size: 78px;
+    font-weight: 700;
+    color: #f00;
+}
+.ca_text h4{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.ca_text h5{
+    margin-top: 20px;
+    color: #f00;
+    font-weight: 500;
+    font-size: 20px;
+}
+.ca_img{
+    margin-top: 30px;
+}
+.ca_img img{
+    width: 100%;
+}
+/* Categories Section End */
+
+/* Party Section Start */
+.party{
+    display: flex;
+    position: relative;
+    margin: 100px auto;
+    width: 80%;
+    height: 500px;
+}
+.party_overlay{
+    position: absolute;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* gap: 10px; */
+}
+.party img{
+    width: 100%;
+}
+.p_text{
+    padding-top: 110px;
+    padding-left: 100px;
+}
+.p_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_img img{
+    padding: 30px;
+    width: 70%;
+}
+
+.p_text h2{
+    font-family: "Merriweather", serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+.p_text h6{
+    font-family: "Merriweather", serif;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+}
+.p_text button{
+    font-family: Inter, serif;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+/* Party Section End */
+
+/* Join Now Section Start */
+.join_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    font-family: Inter, serif;
+
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+.join_section h4{
+    font-size: 20px;
+}
+.join_section span{
+    color: #f00;
+}
+.join_section button{
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 40px;
+    color: #fff;
+    background: #f00;
+}
+/* Join Now Section End */
+
+/* Newsletter Section Start */
+.newsletter{
+    padding: 70px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin: 60px auto;
+    width: 80%;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter h3{
+    margin-top: 15px;
+    color: #070211;
+    font-family: Merriweather, serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.newsletter p{
+    margin-top: 15px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.newsletter input{
+    margin-top: 30px;
+    /* padding: 20px 50px; */
+}
+.i_field{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 20px 150px 20px 25px;
+}
+.i_field::placeholder{
+    font-size: 16px;
+    font-family: Inter, serif;
+    color: rgba(7, 2, 17, 0.30);
+}
+.s_field{
+    margin-left: -5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    padding: 17px 60px 20px 60px;
+
+    color: #FFF;
+    background: #f00;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Newsletter Section End */
+
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: 400px;
+    background: #070211;
+}
+.f_content{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+.f_text{
+    padding-top: 70px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+.f_text2{
+    padding-right: 150px;
+}
+.f_text1 h6{
+    color: #fff;
+    font-size: 16px;
+    font-family: Inter, serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+.f_text2 h6{
+    margin-left: 5px;
+    text-align: center;
+    display: inline;
+    color: #fff;
+    font-family: Inter, serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.f_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+.f_social img{
+    width: 40px;
+    height: 40px;
+}
+.f_text3{
+    display: flex;
+    justify-content: space-between;
+}
+.f_text3 h6{
+    padding: 25px 0;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+}
