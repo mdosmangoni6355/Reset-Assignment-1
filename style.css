@@ -118,7 +118,7 @@
 
 .p_img img{
     padding: 30px;
-    width: 70%;
+    width: 85%;
 }
 
 .p_text h2{
@@ -152,6 +152,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    border-radius: 12px;
 
     font-family: Inter, serif;
 
@@ -177,6 +178,156 @@
     background: #f00;
 }
 /* Join Now Section End */
+
+/* Coming soon section start */
+.coming_soon{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    gap: 100px;
+}
+.co_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.co_text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.co_text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.co_text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.co_text1{
+    width: 33%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+.co_text1 h2{
+    color: #f00;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.co_text1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.img_border{
+    width: 300px;
+    height: 300px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_border img{
+    width: 200px;
+}
+
+/* Coming soon section end */
+
+/* Portfolio Section Start */
+.portfolio{
+    margin: 80px auto;
+    width: 80%;
+}
+
+.port_text{
+    width: 70%;
+}
+.port_text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.port_text h2{
+    margin-top: 10px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.port_text p{
+    margin-top: 10px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.card_line1, .card_line2{
+    display: flex;
+    gap: 30px;
+}
+.card_line1{
+    margin-top: 30px;
+}
+
+/* hover effects */
+.card_line1 div{
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card_line1 div img{
+    transition: transform 0.3s;
+}
+.card_line1 div:hover img{
+    transform: scale(1.5);
+    border-radius: 16px;
+}
+
+.card_line2 div{
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card_line2 div img{
+    transition: transform 0.3s;
+}
+.card_line2 div:hover img{
+    transform: scale(1.5);
+    border-radius: 16px;
+}
+
+/* hover effects end */
+
+.card_line2{
+    margin-top: 30px;
+}
+.card_line1 img{
+    width: 371px;
+}
+.card_line2 img{
+    width: 371px;
+}
+
+/* Portfolio Section End */
 
 /* Newsletter Section Start */
 .newsletter{
@@ -255,14 +406,14 @@ footer{
 .f_text2{
     padding-right: 150px;
 }
-.f_text1 h6{
+.f_text1 p{
     color: #fff;
     font-size: 16px;
     font-family: Inter, serif;
     font-weight: 500;
     line-height: 30px;
 }
-.f_text2 h6{
+.f_text2 p{
     margin-left: 5px;
     text-align: center;
     display: inline;
@@ -288,7 +439,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.f_text3 h6{
+.f_text3 p{
     padding: 25px 0;
     font-family: Inter, serif;
     font-size: 16px;
